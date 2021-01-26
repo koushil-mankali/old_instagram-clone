@@ -1,0 +1,108 @@
+.Post{
+    width:70vmin;
+    height:auto;
+    margin:10px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #dbdbdb;
+}
+
+.postHeader{
+    width:100%;
+    height:60px;
+    padding:0 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+
+.postHeader > span {
+    display:flex;
+    align-items: center;
+}
+
+.user_nm{
+    margin:0 10px;
+    font-weight: 600;
+}
+
+.opts{
+    cursor: pointer;
+    font-size:30px;
+    margin-top:-20px;
+    font-weight:400;
+}
+
+.postBody{
+    height:auto;
+    max-height:480px;
+}
+
+.postImage{
+    width:100%;
+    height:auto;
+    max-height:480px;
+    object-fit: cover;
+}
+
+.postFooter{
+    width:100%;
+    min-height:160px;
+    margin-top:5px;
+    background-color: #FFFFFF;
+}
+
+.cmt_sys{
+    width:100%;
+    min-height:30px;
+    height:auto;
+    border-top:1px solid #dbdbdb;
+}
+
+.inputComment{
+    width:90%;
+    padding:10px;
+    border:none;
+    outline:none;
+}
+
+.postComment{
+    width:10%;
+    color:rgba(0,149,246,0.5);
+    padding:5px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.postCommentAct{
+    width:10%;
+    padding:5px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    color:#0095f6;
+}
+
+.postBtns{
+    margin:0 5px;
+    cursor: pointer;
+}
+
+.user_name{
+    font-weight:600;
+    margin:0 10px;
+}
+.postTime{
+    margin:5px 10px;
+    color:#8e8e8e;
+}

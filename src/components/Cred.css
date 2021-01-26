@@ -1,0 +1,157 @@
+.Login {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_mod {
+  width: 350px;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
+
+.loginMod_in {
+  margin: 40px;
+}
+
+.logo_img {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.logo {
+  height: 45px;
+}
+
+.l_form {
+  display:flex;
+  flex-direction: column;
+}
+
+.inputF{
+    color:#262626;
+    margin:4px 0;
+    width:100%;
+    padding:10px;
+    border:1px solid #dbdbdb;
+    outline:none;
+    border-radius:3px;
+}
+
+.submitButton{
+    margin:7px 0;
+    border:none;
+    outline:none;
+    padding:5px;
+    border-radius:5px;
+    color:#ffffff;
+    font-weight:bold;
+    background-color: #B2DFFC;
+}
+
+.submitButtonAct{
+    margin:7px 0;
+    border:none;
+    outline:none;
+    padding:5px;
+    border-radius:5px;
+    color:#ffffff;
+    font-weight:bold;
+    cursor: pointer;
+    background-color: #0095f6;
+}
+
+.sep{
+    margin:10px 0;
+    color:#868686;
+    display:flex;
+    align-items: center;
+}
+
+.sep:before{
+    content: '';
+    width:100%;
+    border-bottom:1px solid #868686;
+    margin-right:10px;
+}
+.sep:after{
+    content: '';
+    width:100%;
+    border-bottom:1px solid #868686;
+    margin-left:10px;
+}
+
+.fg_ps{
+    text-align: center;
+    margin:20px 0;
+}
+
+.fg_ps1{
+    color:#385185;
+    font-weight:bold;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+}
+
+.fg_ps2{
+    margin-top:20px;
+    font-size:0.8rem;
+    color:#00376b;
+    cursor: pointer;
+}
+
+.slDlg {
+  width: 350px;
+  height: auto;
+  padding:20px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ppy{
+    color:#868686;
+    font-size:0.8rem;
+    text-align: center;
+}
+
+.su_lg{
+    color:#0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gta_ttl {
+  text-align: center;
+  margin: 10px 0;
+}
+.gta_img {
+  width: 150px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+
+@media all and (max-width:450px){
+    .login_mod{
+        border:none;
+        background-color: #fafafa;
+    }
+    .slDlg{
+        border:none;
+        background-color: #fafafa;
+    }
+    .gta_img{
+        display: flex;
+        justify-content: center;
+    }
+}

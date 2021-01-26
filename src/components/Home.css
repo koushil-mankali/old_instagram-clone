@@ -1,0 +1,151 @@
+.homeP {
+  width: 100%;
+  min-height:100vh;
+  height: auto;
+  background-color: #fafafa;
+}
+
+.header {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+}
+.insta_logo {
+  width: 100px;
+  height: 30px;
+}
+.searchBar {
+  width: 200px;
+  display: flex;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+.searchBar > span {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 2px;
+}
+.searchBar > input {
+  color: #262626;
+  margin: 4px 0;
+  width: 100%;
+  background-color: #fafafa;
+  outline: none;
+  border: none;
+}
+.menu_icons {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.profile {
+  border-radius: 25px;
+  width: 36px;
+  height: 36px;
+}
+.profilePic {
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.menuOptions {
+  position: absolute;
+  top: 48px;
+  padding: 10px;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px #ccc;
+  display: none;
+}
+
+.profile:hover .menuOptions{
+  display: block !important;
+}
+
+.menuOptsLi {
+  width: 200px;
+  margin: 5px 0;
+}
+
+
+.menuOptsLiIn {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #262626;
+}
+
+
+.menuOpt {
+  margin-left: 10px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec1 {
+  margin-top: 10px;
+  width: 70vmin;
+  height: 90px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.pstBtn {
+  float: right;
+  padding-right: 20px;
+}
+.addPic {
+  display: none;
+}
+
+.uploadBtn {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.section1,
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 {
+  margin: 20px;
+}
+
+.postDesc {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  cursor: pointer;
+}
+
+.loaderCSS{
+ margin:40%;
+}
+
+@media all and (max-width: 600px) {
+  .searchBar {
+    display: none;
+  }
+}
+@media all and (max-width: 350px) {
+  .menu_icons {
+    margin: 0;
+  }
+}
